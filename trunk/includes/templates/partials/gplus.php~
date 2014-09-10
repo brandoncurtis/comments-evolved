@@ -19,9 +19,7 @@ defined('ABSPATH') or exit;
 
 <script type="text/javascript">
   (function() {
-    var gpcb = document.createElement('script');
-    gpcb.type = 'text/javascript';
-    gpcb.async = true;
+    var gpcb = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
     gpcb.src = '//apis.google.com/js/plusone.js?callback=gpcb&onload=onLoadCallback';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gpcb, s);
   })();
